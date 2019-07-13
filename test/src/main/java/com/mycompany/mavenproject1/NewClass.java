@@ -26,6 +26,7 @@ public class NewClass {
         this.test = test;
     }   
     
+    @Override
     public String toString(){
         return "test: "+this.test;
     }
