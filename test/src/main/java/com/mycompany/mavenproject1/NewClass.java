@@ -24,5 +24,9 @@ public class NewClass {
 
     public void setTest(String test) {
         this.test = test;
-    }    
+    }   
+    
+    public String toString(){
+        return "test: "+this.test;
+    }
 }
