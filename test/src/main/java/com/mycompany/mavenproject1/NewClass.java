@@ -15,4 +15,7 @@ public class NewClass {
     public NewClass(String test){
         this.test = test;
     }
+    
+    public NewClass(){}
+
 }
