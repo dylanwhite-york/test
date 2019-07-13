@@ -10,5 +10,24 @@ package com.mycompany.mavenproject1;
  * @author dylan
  */
 public class NewClass {
+    private String test;
     
+    public NewClass(String test){
+        this.test = test;
+    }
+    
+    public NewClass(){}
+
+    public String getTest() {
+        return test;
+    }
+
+    public void setTest(String test) {
+        this.test = test;
+    }   
+    
+    @Override
+    public String toString(){
+        return "test: "+this.test;
+    }
 }
